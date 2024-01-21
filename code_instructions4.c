@@ -3,8 +3,8 @@
 /**
  * _rotl - rotates the first element to the bottom and  the second to the top
  *
- * @doubly: head of the linked list
- * @cline: line number;
+ * @doubly: head of linked list
+ * @cline: the line number;
  * Return: no return
  */
 void _rotl(stack_t **doubly, unsigned int cline)
@@ -35,8 +35,8 @@ void _rotl(stack_t **doubly, unsigned int cline)
 /**
  * _rotr - reverse the stack
  *
- * @doubly: head of the linked list
- * @cline: line number
+ * @doubly: head of linked list
+ * @cline: the line number
  * Return: no return
  */
 void _rotr(stack_t **doubly, unsigned int cline)
